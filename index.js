@@ -245,7 +245,7 @@ function formatDealerMsg(dealer, prices, now) {
   const lines = [
     "🥇 *HARGA EMAS HARI INI*",
     `📅 ${date}`, `🕙 ${time}`,
-    `👤 ${dealer.name}`, `📊 Ref: ${dealer.ref}`,
+    `👤 ${dealer.name}`,
     "─────────────────────",
   ];
   for (const p of PURITIES) {
@@ -255,7 +255,7 @@ function formatDealerMsg(dealer, prices, now) {
   }
   lines.push("─────────────────────");
   lines.push("_Harga tertakluk kepada perubahan pasaran_");
-  lines.push("_Hubungi untuk pengesahan harga_");
+  lines.push("_Hubungi untuk lock harga_");
   return lines.join("\n");
 }
 

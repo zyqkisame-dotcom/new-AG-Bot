@@ -78,7 +78,6 @@ pm2 save
 📅 Isnin, 23 Jun 2026
 🕙 10:00 AM
 👤 FAUZIAH
-📊 Ref: MKS We Buy
 ─────────────────────
 999.9 (24K): *RM 598*/g
 999   (24K): *RM 584*/g
@@ -90,7 +89,7 @@ pm2 save
 375   ( 9K): *RM 161*/g
 ─────────────────────
 _Harga tertakluk kepada perubahan pasaran_
-_Hubungi untuk pengesahan harga_
+_Hubungi untuk lock harga_
 ```
 
 ---
