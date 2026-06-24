@@ -243,6 +243,8 @@ function formatDealerMsg(dealer, prices, now) {
   const date = now.toLocaleDateString("ms-MY", { weekday:"long", year:"numeric", month:"long", day:"numeric", timeZone:"Asia/Kuala_Lumpur" });
   const time = now.toLocaleTimeString("en-MY", { hour:"2-digit", minute:"2-digit", timeZone:"Asia/Kuala_Lumpur" });
   const lines = [
+    "Assalamualaikum & Selamat Sejahtera",
+    "",
     "🥇 *HARGA EMAS HARI INI*",
     `📅 ${date}`, `🕙 ${time}`,
     `👤 ${dealer.name}`,
@@ -256,6 +258,8 @@ function formatDealerMsg(dealer, prices, now) {
   lines.push("─────────────────────");
   lines.push("_Harga tertakluk kepada perubahan pasaran_");
   lines.push("_Hubungi untuk lock harga_");
+  lines.push("");
+  lines.push("Semoga dimurahkan rezeki 🤲");
   return lines.join("\n");
 }
 

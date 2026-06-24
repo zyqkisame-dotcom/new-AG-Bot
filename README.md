@@ -74,6 +74,8 @@ pm2 save
 ## 💬 Contoh WA Message
 
 ```
+Assalamualaikum & Selamat Sejahtera
+
 🥇 *HARGA EMAS HARI INI*
 📅 Isnin, 23 Jun 2026
 🕙 10:00 AM
@@ -90,6 +92,8 @@ pm2 save
 ─────────────────────
 _Harga tertakluk kepada perubahan pasaran_
 _Hubungi untuk lock harga_
+
+Semoga dimurahkan rezeki 🤲
 ```
 
 ---
